@@ -1076,7 +1076,7 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   content: "";
   width: 100%;
   height: 3px;
-  background: #133592;
+  background: #008a5c;
   position: absolute;
   bottom: 17px;
   opacity: 0;
@@ -1127,7 +1127,7 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   color: #545760;
 }
 .pc_two_item:hover {
-  color: #133592;
+  color: #008a5c;
   font-weight: 500;
   letter-spacing: -0.1px;
 }
@@ -1146,7 +1146,7 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 .header_util_list_wrap:after {
   left: 70px;
   width: 150vw;
-  background: #133592;
+  background: #008a5c;
   height: 100%;
   top: 0;
 }
@@ -1166,7 +1166,7 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   width: 100px;
   height: 200%;
   transform: rotate(24deg);
-  background: #133592;
+  background: #008a5c;
   left: 20px;
   top: -32px;
   position: absolute;
@@ -1271,7 +1271,7 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   content: "";
   width: 40px;
   height: 40px;
-  background: #133592;
+  background: #008a5c;
   border-radius: 100%;
   position: fixed;
   top: 8px;
@@ -1306,10 +1306,10 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   display: block;
 }
 .mobile_nav_wrap .btn_mobile_total:before, .mobile_nav_wrap .btn_mobile_total:after {
-  background-color: #133592;
+  background-color: #008a5c;
 }
 .mobile_nav_wrap .btn_mobile_total .btn_mobile_total_inner {
-  background-color: #133592;
+  background-color: #008a5c;
 }
 
 .btn_mobile_total_wrap {
@@ -1522,7 +1522,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
 }
 .footer_logo.logo_partner02 {
   background-image: url("../images/logo_Gangneung_ko@2x.png");
-  width: 92px;
+  width: 124px;
   height: 50px;
 }
 .footer_logo.logo_partner03 {
@@ -2131,7 +2131,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
   content: "";
   width: 4px;
   height: 4px;
-  background: #133592;
+  background: #008a5c;
   position: absolute;
   top: 7px;
   left: 0;
@@ -2152,10 +2152,10 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
 }
 
 .primary_emp {
-  color: #133592 !important;
+  color: #008a5c !important;
 }
 .primary_emp * {
-  color: #133592 !important;
+  color: #008a5c !important;
 }
 
 .dark_emp {
@@ -2204,7 +2204,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
   display: flex;
 }
 .tab_box_list > li.active .tab_box {
-  background: #133592;
+  background: #008a5c;
 }
 .tab_box {
   background: #b5bbcb;
@@ -2251,10 +2251,10 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
   gap: 40px;
 }
 .tab_subtext_list > li.active .tab_subtext {
-  border-color: #133592;
+  border-color: #008a5c;
 }
 .tab_subtext_list > li.active .tab_subtext .tab_subtext_in {
-  color: #133592;
+  color: #008a5c;
   font-weight: 600;
   letter-spacing: -0.25px;
 }
@@ -2386,7 +2386,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
 
 .board_count_value {
   font-weight: 700;
-  color: #133592;
+  color: #008a5c;
 }
 
 .gallery_list_wrap.skin2 .gallery_list {
@@ -2537,8 +2537,8 @@ li.nodata_li {
 }
 
 .previewer_list_wrap {
-  border-top: 2px solid #133592;
-  border-bottom: 1px solid #133592;
+  border-top: 2px solid #008a5c;
+  border-bottom: 1px solid #008a5c;
 }
 
 .previewer_list > li {
@@ -2621,7 +2621,7 @@ li.nodata_li {
 
 .btn_event_box {
   display: flex;
-  background: #133592;
+  background: #008a5c;
   border-radius: 100px;
   padding: 12px 30px;
   justify-content: center;
@@ -2800,7 +2800,7 @@ li.nodata_li {
 }
 
 .data_table_wrap {
-  border-top: 2px solid #133592;
+  border-top: 2px solid #008a5c;
 }
 .data_table_wrap.respon_scroll_wrap {
   overflow-x: auto;
@@ -2867,7 +2867,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   font-size: 14px;
 }
 .text_block_bullet.text_emp {
-  color: #133592;
+  color: #008a5c;
   font-weight: 500;
 }
 
@@ -2899,7 +2899,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 .indent_bullet.text_emp {
   font-size: 14px;
   font-weight: 500;
-  color: #133592;
+  color: #008a5c;
 }
 
 .indent_text_content {
@@ -2935,7 +2935,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   background-repeat: no-repeat;
 }
 .btn_pagination_control:hover {
-  background-color: #133592;
+  background-color: #008a5c;
 }
 .btn_pagination_control:hover:after {
   background-position: 0 100%;
@@ -2977,7 +2977,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   color: #98a0ad;
 }
 .page_number:hover, .page_number.active {
-  background-color: #133592;
+  background-color: #008a5c;
   font-weight: 500;
   color: #fff;
 }
@@ -2988,7 +2988,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 /* view */
 .view_title_row {
   padding: 30px 10px;
-  border-top: 2px solid #133592;
+  border-top: 2px solid #008a5c;
   border-bottom: 1px solid #d3d5e0;
   display: flex;
   align-items: center;
@@ -3065,7 +3065,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   margin: 0 auto;
 }
 .gallery_thumnail_img:hover, .gallery_thumnail_img.active {
-  border-color: #133592;
+  border-color: #008a5c;
 }
 .gallery_thumnail_img img {
   display: block;
@@ -3114,7 +3114,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   left: 14px;
 }
 .btn_thumnail_control:hover:after {
-  border-color: #133592;
+  border-color: #008a5c;
 }
 
 .view_getdata_render {
@@ -3166,7 +3166,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 
 .view_other_data_row {
   margin-top: 70px;
-  border-bottom: 1px solid #133592;
+  border-bottom: 1px solid #008a5c;
 }
 
 .view_other_data_table {
@@ -3178,12 +3178,12 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   display: table-row;
 }
 .view_other_data_tr:hover .view_other_data_key {
-  color: #133592;
+  color: #008a5c;
   font-weight: 600;
   letter-spacing: -0.3px;
 }
 .view_other_data_tr:hover .view_other_data_key:before {
-  border-color: #133592;
+  border-color: #008a5c;
 }
 .view_other_data_tr:hover .view_other_data_cell {
   background: #f9fafd;
@@ -3247,7 +3247,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 }
 .btn_bottom_row.type2 {
   margin-top: 70px;
-  border-top: 1px solid #133592;
+  border-top: 1px solid #008a5c;
   padding-top: 30px;
   min-width: 180px;
 }
@@ -3266,24 +3266,24 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   background-color: #fff;
 }
 .btn_submit_box.type2 {
-  background: #133592;
-  border-color: #133592;
+  background: #008a5c;
+  border-color: #008a5c;
 }
 .btn_submit_box.type2 .btn_submit_box_text {
   color: #fff;
 }
 .btn_submit_box.type2:hover {
-  background: #133592;
-  border-color: #133592;
+  background: #008a5c;
+  border-color: #008a5c;
 }
 .btn_submit_box.type2:hover .btn_submit_box_text {
   color: #fff;
 }
 .btn_submit_box:hover {
-  border-color: #133592;
+  border-color: #008a5c;
 }
 .btn_submit_box:hover .btn_submit_box_text {
-  color: #133592;
+  color: #008a5c;
 }
 
 .btn_submit_box_text {
@@ -3649,7 +3649,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 .btn_linktext_box {
   font-size: 14px;
   color: #fff;
-  background: #133592;
+  background: #008a5c;
   border-radius: 100px;
   line-height: 1;
   padding: 8px 20px;
@@ -4306,7 +4306,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   content: "";
   width: 4px;
   height: 4px;
-  background: #133592;
+  background: #008a5c;
   position: absolute;
   top: 6px;
   lefT: 0;
@@ -4664,7 +4664,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 .text_step_para {
   font-weight: 500;
   font-size: 18px;
-  color: #133592;
+  color: #008a5c;
   margin-top: 10px;
   word-break: keep-all;
 }
@@ -4740,7 +4740,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   padding: 8px 20px;
   white-space: nowrap;
   border-radius: 100px;
-  background-color: #133592;
+  background-color: #008a5c;
   color: #fff;
 }
 
@@ -5086,7 +5086,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   background: #2349b0;
 }
 .schedule_table th.th_bg04 {
-  background: #133592;
+  background: #008a5c;
 }
 .schedule_table th.wid_01 {
   width: 8.5%;
@@ -5325,7 +5325,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 
 .detail_vctitle {
   font-size: 20px;
-  color: #133592;
+  color: #008a5c;
   font-weight: 600;
   line-height: 1;
   position: relative;
@@ -5387,14 +5387,14 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   content: "";
   width: 4px;
   height: 4px;
-  background: #133592;
+  background: #008a5c;
   position: absolute;
   top: 8px;
   left: 0;
 }
 .data_list_table {
   width: 100%;
-  border-top: 2px solid #133592;
+  border-top: 2px solid #008a5c;
 }
 .data_list_table thead tr th {
   border-bottom: 1px solid #d3d5e0;
@@ -6271,7 +6271,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 }
 
 .day_count_group {
-  background: #133592;
+  background: #008a5c;
   min-height: 40px;
   padding: 0 6px;
   margin: 0 8px;
@@ -6288,7 +6288,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   height: 100%;
   position: absolute;
   top: 0;
-  background: #133592;
+  background: #008a5c;
 }
 .day_count_group:before {
   left: -9px;
@@ -6466,7 +6466,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 .mc_hover_box {
   font-size: 14px;
   background: #fff;
-  color: #133592;
+  color: #008a5c;
   border-radius: 100px;
   font-weight: 600;
   display: inline-block;
