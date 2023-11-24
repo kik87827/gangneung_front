@@ -398,7 +398,7 @@ html:not(.touchmode) {
     .footer_logo_list{gap:16px;}
     .footer_logo{
         &.logo_partner01{width:138px;height:34px;}
-        &.logo_partner02{width:63px;height:34px;}
+        &.logo_partner02{width:135px;height:34px;}
         &.logo_partner03{width:107px;height:34px;}
     }
 
@@ -428,6 +428,11 @@ html:not(.touchmode) {
     .footer_logo_list{gap:10px;
         > li:last-of-type{padding-right:16px;}
         &:after{display:block;content:'';width:10px;}
+    }
+    .footer_logo{
+        &.logo_partner01{width:109px;height:27px;}
+        &.logo_partner02{width:105px;height:27px;}
+        &.logo_partner03{width:96px;height:27px;}
     }
 
     .mobile_nav_wrap{
