@@ -1955,7 +1955,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
   top: calc(100% + 7px);
   left: 50%;
   width: calc(100% + 14px);
-  display: none;
+  visibility: hidden;
   min-width: 150px;
   transform: translateX(-50%);
   height: 0;
@@ -1965,7 +1965,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
   border-radius: 4px;
 }
 .sub_map_toggle_layer.active {
-  display: block;
+  visibility: visible;
 }
 
 .sub_map_menu_list_wrap {
@@ -1982,7 +1982,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
 }
 .sub_map_menu:hover, .sub_map_menu.current {
   color: #292a2e;
-  background-color: rgba(31, 60, 138, 0.1);
+  background-color: #f1f1f1;
 }
 
 .middle_contents {
@@ -2050,12 +2050,12 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
     flex: 1;
   }
   .sub_map_list > li.has_current.active .sub_map_toggle {
-    background: rgba(19, 53, 146, 0.5);
+    background: rgba(0, 0, 0, 0.3);
   }
   .sub_map_toggle {
     display: block;
     padding: 13px 24px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.25);
   }
   .sub_map_toggle:after {
     top: 50%;
@@ -2065,7 +2065,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
   .sub_map_text.define_current {
     display: block;
     padding: 13px 24px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.25);
   }
   .sub_map_toggle_layer {
     width: 100%;
@@ -6563,6 +6563,21 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   }
   .visual_guide_text_list {
     margin-top: 16px;
+    display: block;
+  }
+  .visual_guide_text_list > li {
+    display: inline-block;
+    padding-right: 40px;
+    position: relative;
+  }
+  .visual_guide_text_list > li:after {
+    right: 20px;
+  }
+  .visual_guide_text_list > li:last-of-type {
+    padding-right: 0;
+  }
+  .visual_guide_text_list > li:last-of-type:after {
+    display: none;
   }
   .main_contents_list_wrap {
     padding-left: 16px;
@@ -6573,6 +6588,11 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   }
   .mc_hover_title {
     font-size: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .visual_signature br {
+    display: none;
   }
 }
 /*# sourceMappingURL=common.css.map */

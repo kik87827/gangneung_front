@@ -155,7 +155,16 @@
     .day_count_sub_main{font-size:20px;}
     .visual_signature{font-size:36px;}
     .visual_sub{font-size:16px;}
-    .visual_guide_text_list{margin-top:16px;}
+    .visual_guide_text_list{margin-top:16px; display:block;
+        > li{
+            display:inline-block; padding-right:40px;position:relative;
+            &:after{right:20px;}
+            &:last-of-type{
+                padding-right:0;
+                &:after{display:none;}
+            }
+        }
+    }
 
     .main_contents_list_wrap{
         padding-left:16px; padding-right:16px;
@@ -166,4 +175,9 @@
     }
 
     .mc_hover_title{font-size:16px;}
+}
+@media (max-width:$mobile_medium){
+    .visual_signature{
+        br{display:none;}
+    }
 }
