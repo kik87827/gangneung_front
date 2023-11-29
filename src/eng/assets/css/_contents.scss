@@ -1038,7 +1038,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
 /* design */
 .greet_contents_wrap{display:flex;}
 .greet_text_group{flex:1;padding:0 0 0 50px;color:#292a2e;}
-.greet_main_text{font-size:30px;font-weight:700;line-height:1;word-break: keep-all;}
+.greet_main_text{font-size:30px;font-weight:800;line-height:1;word-break: keep-all;}
 .greet_sub_text{font-size:20px;font-weight:600;margin-top:16px;word-break: keep-all;}
 .greet_tail_para_group{margin-top:16px;}
 .greet_tail_para{
@@ -1046,6 +1046,9 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
     &.type2{}
     &:last-of-type{margin-bottom:0;}
 }
+.greet_end_para{margin-top:20px;display:flex;align-items: center;font-size:14px;font-weight:700;gap:8px;}
+.greet_end_name{color:$primary;font-weight:700;}
+.greet_end_pos{}
 .greet_img_group{
     flex:0 0 518px;
 
@@ -2208,6 +2211,9 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
 }
 
 @media (max-width:$mobile){
+
+    .greet_end_para{margin-top:16px;}
+
     .global_contents_wrap{padding:40px 16px 54px;}
     .global_logo_list{
         gap:40px 0; margin:0 -8px;

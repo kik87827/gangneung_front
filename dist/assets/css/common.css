@@ -3882,7 +3882,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 
 .greet_main_text {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1;
   word-break: keep-all;
 }
@@ -3907,6 +3907,20 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 }
 .greet_tail_para:last-of-type {
   margin-bottom: 0;
+}
+
+.greet_end_para {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 8px;
+}
+
+.greet_end_name {
+  color: #008a5c;
+  font-weight: 700;
 }
 
 .greet_img_group {
@@ -6141,6 +6155,9 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   }
 }
 @media (max-width: 767px) {
+  .greet_end_para {
+    margin-top: 16px;
+  }
   .global_contents_wrap {
     padding: 40px 16px 54px;
   }
