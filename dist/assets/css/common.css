@@ -4793,17 +4793,17 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   padding-bottom: 80px;
 }
 .intro_global_logo_wrap img {
-  max-width: 390px;
+  max-width: 366px;
 }
 
 .global_contents_wrap {
   position: relative;
-  padding: 90px 30px 120px;
+  padding: 90px 0 120px;
 }
 .global_contents_wrap:before {
   display: block;
   content: "";
-  background-color: #f9fafd;
+  background-color: #f5f5f5;
   position: absolute;
   top: 0;
   left: 50%;
@@ -4827,12 +4827,16 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   flex-direction: column;
   gap: 40px 0;
 }
+.global_list_group + .list_table_wrap {
+  margin-top: 72px;
+}
 
 .global_logo_list {
   display: flex;
   flex-wrap: wrap;
   gap: 40px 0;
   margin: 0 -20px;
+  justify-content: center;
 }
 .global_logo_list > li {
   box-sizing: border-box;
@@ -4897,7 +4901,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, #0c5fd4 0%, #014099 100%);
+  background-image: linear-gradient(to bottom, #14bb83 0%, #01a37c 100%);
 }
 .global_img_hover_wrap .hover_para {
   font-size: 24px;
@@ -5008,7 +5012,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 
 .overview_intro_box {
   background: #f1f1f1;
-  padding: 30px 10px 30px;
+  padding: 30px 20px 30px;
   box-sizing: border-box;
   height: 100%;
   border-radius: 4px;
@@ -5456,6 +5460,52 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   color: #545760;
 }
 
+.list_table_wrap {
+  border-top: 2px solid #008a5c;
+  position: relative;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.list_table_wrap::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+.list_table {
+  width: 100%;
+  background: #fff;
+}
+.list_table thead tr th {
+  background: #f9f9fc;
+  padding: 20px 8px;
+  border-bottom: solid 1px #d3d5e0;
+}
+.list_table tbody tr td {
+  border-bottom: solid 1px #f1f2f4;
+  padding: 16px 8px;
+}
+.list_table tbody tr.active td .list_td_text {
+  color: #008a5c;
+  font-weight: 500;
+}
+
+.list_th_text {
+  font-size: 15px;
+  color: #292a2e;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.list_td_text {
+  font-size: 14px;
+  color: #545760;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+}
+
 @media (max-width: 1299px) {
   .greet_contents_wrap {
     flex-direction: column-reverse;
@@ -5510,6 +5560,18 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   .global_contents_wrap {
     padding: 40px 24px 50px;
   }
+  .global_list_group + .list_table_wrap {
+    margin-top: 44px;
+  }
+  .global_logo_list {
+    gap: 34px 0;
+    margin: 0 -8px;
+  }
+  .global_logo_list > li {
+    flex-basis: 33.3333333333%;
+    width: 33.3333333333%;
+    padding: 0 8px;
+  }
   .global_logo {
     overflow: visible;
     position: static;
@@ -5533,6 +5595,10 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   }
   .global_logo:hover .global_logo_thum:after {
     opacity: 1;
+  }
+  .global_logo.active .hover_para {
+    color: #008a5c;
+    font-weight: 600;
   }
   .global_logo_thum {
     position: relative;
@@ -5583,6 +5649,18 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
     font-weight: 400;
     position: relative;
     word-break: keep-all;
+  }
+  .global_img_hover_wrap .hover_para br {
+    display: none;
+  }
+  .list_table thead tr th {
+    padding: 16px 8px;
+  }
+  .list_table tbody tr td {
+    padding: 15px 8px;
+  }
+  .list_th_text {
+    font-size: 14px;
   }
   .global_paper_list_wrap {
     padding: 0 44px;
@@ -6187,6 +6265,16 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
     flex: 0 0 50%;
     width: 50%;
     padding: 0 8px;
+  }
+  .list_table_wrap {
+    margin-right: -16px;
+    padding-right: 16px;
+    border-top: 0;
+  }
+  .list_table_wrap .list_table {
+    min-width: 110%;
+    box-sizing: border-box;
+    border-top: 2px solid #008a5c;
   }
   .overview_intro_zone {
     padding-left: 16px;
