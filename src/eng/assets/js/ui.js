@@ -734,6 +734,7 @@ $(function() {
     function scrollAction(targetItem){
       if(touchstart){return;}
       const slider = document.querySelector(targetItem);
+      if(!slider){return;}
       let isDown = false;
       let startX;
       let scrollLeft;
