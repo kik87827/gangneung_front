@@ -340,7 +340,7 @@ li.nodata_li{
     text-align: left;
     color: #292a2e;}
     
-.summary_canrd_spec_sub{margin-top:10px;color:#292a2e; width:100%; word-break: keep-all;}
+.summary_canrd_spec_sub{margin-top:10px; color:#292a2e; width:100%; word-break: keep-all;}
 .summary_card_spec_sub_list{width:100%; margin-top:12px;
     > li{
         display:flex; gap:4px; margin-bottom:9px; 
@@ -810,6 +810,8 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
             &:last-of-type{margin-bottom:0;}
         }
     }
+    .summary_card_list_wrap.type2 .summary_card_img_cols,
+    .summary_card_img_cols{flex-basis: 260px;}
 }
 
 .guide_grid_list_wrap{
@@ -958,6 +960,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
     .summary_card_spec_cols{padding:16px 10px 0 10px;}
     .summary_card_spec_main{font-size: 19px;}
 
+    .summary_card_list_wrap.type2 .summary_card_img_wrap,
     .summary_card_img_wrap{
        padding-bottom:54.8780487804878%;
     }

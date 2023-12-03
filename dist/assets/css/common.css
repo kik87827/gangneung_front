@@ -3583,6 +3583,10 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   .indent_item_list > li:last-of-type {
     margin-bottom: 0;
   }
+  .summary_card_list_wrap.type2 .summary_card_img_cols,
+.summary_card_img_cols {
+    flex-basis: 260px;
+  }
 }
 .guide_grid_list {
   display: flex;
@@ -3778,7 +3782,8 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   .summary_card_spec_main {
     font-size: 19px;
   }
-  .summary_card_img_wrap {
+  .summary_card_list_wrap.type2 .summary_card_img_wrap,
+.summary_card_img_wrap {
     padding-bottom: 54.8780487805%;
   }
   .note_bottom_row {
