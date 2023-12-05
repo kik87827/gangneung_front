@@ -112,16 +112,16 @@ $(function() {
 
       function headerDimShow(){
         header_dim.classList.add("active");
-        setTimeout(()=>{
+       /*  setTimeout(()=>{
           header_dim.classList.add("motion");
-        },10);
+        },10); */
       }
 
       function headerDimHide(){
-        header_dim.classList.remove("motion");
-        setTimeout(()=>{
-          header_dim.classList.remove("active");
-        },400);
+        header_dim.classList.remove("active");
+        /* header_dim.classList.remove("motion"); */
+        /* setTimeout(()=>{
+        },400); */
       }
     }
     function scrollTopGo(){

@@ -111,16 +111,16 @@ function layoutFunc() {
 
     function headerDimShow() {
       header_dim.classList.add("active");
-      setTimeout(() => {
-        header_dim.classList.add("motion");
-      }, 10);
+      /*  setTimeout(()=>{
+         header_dim.classList.add("motion");
+       },10); */
     }
 
     function headerDimHide() {
-      header_dim.classList.remove("motion");
-      setTimeout(() => {
-        header_dim.classList.remove("active");
-      }, 400);
+      header_dim.classList.remove("active");
+      /* header_dim.classList.remove("motion"); */
+      /* setTimeout(()=>{
+      },400); */
     }
   }
 
