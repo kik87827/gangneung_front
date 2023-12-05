@@ -1368,7 +1368,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
   transition: 0.4s;
 }
 .mobile_nav_toplogo_item:after {
-  background-image: url("../images/logo_its_Gangneung@2x.png");
+  background-image: url("../images/logo_its_gangneung@2x.png");
 }
 
 .mobile_nav_list_wrap {
@@ -1514,7 +1514,7 @@ html:not(.touchmode) .mobile_nav_content_row::-webkit-scrollbar {
   height: 50px;
 }
 .footer_logo.logo_partner02 {
-  background-image: url("../images/logo_Gangneung_en@2x.png");
+  background-image: url("../images/logo_gangneung_en@2x.png");
   width: 195px;
   height: 50px;
 }
