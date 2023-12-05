@@ -5940,6 +5940,10 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   display: flex;
   background: #f5f5f5;
 }
+.bar_menu_list > li {
+  flex: 1;
+  min-width: 0;
+}
 .bar_menu_list > li:first-of-type .bar_img_thum {
   flex-basis: 151px;
 }

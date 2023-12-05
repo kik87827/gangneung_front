@@ -2140,6 +2140,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
 .bar_menu_list{
     height:88px;display:flex; background:#f5f5f5;
     > li{
+        flex:1;min-width:0;
         &:first-of-type{
             .bar_img_thum{flex-basis: 151px;}
         }
