@@ -592,7 +592,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
             &:before{border-color:$primary;}
         }
         .view_other_data_cell{background:#f9fafd}
-        .view_other_data_value{font-weight:600;letter-spacing: -0.2px;}
+        .view_other_data_value{font-weight:600;}
     }
     &:last-of-type{}
 }
@@ -2019,7 +2019,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
     margin-bottom:80px; display:flex; gap:40px;
     &.type2{
         flex-direction: row-reverse;
-        .grid_spec_cols{}
+        .grid_spec_cols{padding-left:40px;}
         .grid_figure_cols{}
     }
     &.type3{
@@ -2030,7 +2030,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
     &:last-of-type{margin-bottom:0;}
 }
 .grid_figure_cols{
-    flex:0 0 57.96875%;
+    flex:0 0 742px;
     > img{}
 }
 .grid_spec_cols{
@@ -2583,7 +2583,9 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {width: 10px;height:
     .grid_block_wrap{margin:24px 24px 0;}
     .grid_block{
         margin-bottom:50px; gap:18px; flex-direction: column !important;
-       
+        &.type2{
+            .grid_spec_cols{padding:0 8px;}
+        }
         &.type3{
             .grid_spec_cols{padding:0 8px 0;}
         }

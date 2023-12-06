@@ -3185,7 +3185,6 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 }
 .view_other_data_tr:hover .view_other_data_value {
   font-weight: 600;
-  letter-spacing: -0.2px;
 }
 .view_other_data_cell {
   display: table-cell;
@@ -5729,6 +5728,9 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 .grid_block.type2 {
   flex-direction: row-reverse;
 }
+.grid_block.type2 .grid_spec_cols {
+  padding-left: 40px;
+}
 .grid_block.type3 {
   flex-direction: column;
 }
@@ -5740,7 +5742,7 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
 }
 
 .grid_figure_cols {
-  flex: 0 0 57.96875%;
+  flex: 0 0 742px;
 }
 .grid_spec_cols {
   flex: 1;
@@ -6760,6 +6762,9 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
     margin-bottom: 50px;
     gap: 18px;
     flex-direction: column !important;
+  }
+  .grid_block.type2 .grid_spec_cols {
+    padding: 0 8px;
   }
   .grid_block.type3 .grid_spec_cols {
     padding: 0 8px 0;
