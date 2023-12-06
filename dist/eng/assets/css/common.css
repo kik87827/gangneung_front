@@ -7294,6 +7294,15 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   }
   .visual_guide_text_list {
     margin-top: 16px;
+    display: block;
+  }
+  .visual_guide_text_list > li {
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+  }
+  .visual_guide_text_list > li:after {
+    right: 9px;
   }
   .main_contents_list_wrap {
     padding: 40px 24px 50px;
@@ -7334,24 +7343,6 @@ html:not(.touchmode) .respon_scroll_wrap::-webkit-scrollbar {
   }
   .visual_sub {
     font-size: 16px;
-  }
-  .visual_guide_text_list {
-    margin-top: 16px;
-    display: block;
-  }
-  .visual_guide_text_list > li {
-    display: inline-block;
-    padding-right: 40px;
-    position: relative;
-  }
-  .visual_guide_text_list > li:after {
-    right: 20px;
-  }
-  .visual_guide_text_list > li:last-of-type {
-    padding-right: 0;
-  }
-  .visual_guide_text_list > li:last-of-type:after {
-    display: none;
   }
   .main_contents_list_wrap {
     padding-left: 16px;
