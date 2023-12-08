@@ -629,7 +629,7 @@ function responImgRendar() {
     responImg.forEach((item) => {
       const thisItem = item;
       if (window.innerWidth <= 1300) {
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth < 768) {
           if (!!thisItem.dataset.mobile) {
             thisItem.src = thisItem.dataset.mobile;
           } else {

@@ -628,7 +628,7 @@ $(function() {
       responImg.forEach((item)=>{
         const thisItem = item;
         if(window.innerWidth <= 1300){
-          if(window.innerWidth <= 768){
+          if(window.innerWidth < 768){
             if(!!thisItem.dataset.mobile){
               thisItem.src = thisItem.dataset.mobile;
             }else{
@@ -738,6 +738,7 @@ $(function() {
     function scrollAction(targetItem){
       if(touchstart){return;}
       const slider = document.querySelector(targetItem);
+      if(!slider){return;}
       let isDown = false;
       let startX;
       let scrollLeft;
